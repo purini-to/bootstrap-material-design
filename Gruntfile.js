@@ -644,8 +644,6 @@ module.exports = function (grunt) {
 
 
   grunt.registerTask("serve", [
-    "htmllint",
-    "bootlint",
     "dist-less",
     "dist-js",
     "dist-fonts",
